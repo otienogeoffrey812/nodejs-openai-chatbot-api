@@ -1,7 +1,7 @@
 # nodejs-openai-chatbot-api
 
 # Description
-* A chatbot using openai using gpt-3.5-turbo model
+* A chatbot using openai gpt-3.5-turbo model
 
 # Technology and stack
 * Node 
