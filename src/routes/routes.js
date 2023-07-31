@@ -1,10 +1,10 @@
 import express from "express";
-import OpenAi from '../controllers/OpenAi.js'
+import OpenAI from '../controllers/OpenAI.js'
 
 const routes = express.Router();
 
 routes.post("/chat-completion", 
-OpenAi.ChatCompletion,
+OpenAI.ChatCompletion,
 )
 
 

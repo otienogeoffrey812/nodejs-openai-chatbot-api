@@ -1,6 +1,6 @@
 import Service from "../utils/Service.js";
 import { handleError } from '../utils/Function.js'
-class OpenAi{
+class OpenAI{
     static ChatCompletion = async(req, res)=>{
         try {
             await Service.openAIchatCompletion(req, res)
@@ -10,4 +10,4 @@ class OpenAi{
     }
 }
 
-export default OpenAi;
+export default OpenAI;
